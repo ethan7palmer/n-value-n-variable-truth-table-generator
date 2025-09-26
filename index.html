@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multi-Valued Table Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>N-Value N-Variable Table Generator</h2>
+
+<div id="controls">
+
+  <label>Variables (comma separated):</label>
+  <input type="text" id="vars" placeholder="A,B,C" />
+
+  <label>Values (comma separated):</label>
+  <input type="text" id="vals" placeholder="1,2,3" />
+
+  <button id="generateBtn">Generate Table</button>
+</div>
+
+<div id="rowCountLabel" style="display:none; margin-top:10px; font-weight:bold;"></div>
+
+<div id="tableContainer"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
